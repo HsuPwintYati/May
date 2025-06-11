@@ -1,6 +1,6 @@
 function checkPassword(){
-    const input = document.getElementById('passwordInput').ariaValueMax;
-    const correctPassword = '1';
+    const input = document.getElementById('passwordInput').value;
+    const correctPassword = '12';
     const errorMsg = document.getElementById('error-msg');
 
     if (input === correctPassword) {
