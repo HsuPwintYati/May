@@ -1,0 +1,65 @@
+:root{
+    --bg-color:#eaf6ff;
+    --first-color:#4d3227;
+    --second-color:#ebc999;
+    --text-color:#333;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Fredoka One', cursive;
+}
+.card{
+    width:300px;
+    border: 4px solid var(--first-color);
+    border-radius: 8px;
+    background-color: #fefefe;
+    text-align: center;
+    padding-bottom: 38px;
+
+}
+.password-section{
+    text-align: center;
+    padding: 30px;
+}
+h3{
+    color: var(--first-color)
+}
+.password-section input{
+    padding: 20px;
+    width: 70%;
+    border-radius: 8px;
+    border: 2px solid var(--first-color);
+    font-size: 16px;
+    font-family: monospace;
+    margin-bottom: 23px;
+}
+.btn{
+    background-color: var(--second-color);
+    padding:10px 20px;
+    border-radius: 12px;
+    border: none;
+    color: var(--text-color);
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.btn:hover{
+    background-color: var(--first-color);
+    color: #fff;
+}
+#error-msg{
+    color: red;
+    font-size: 14px;
+    margin-top: 18px;
+}
