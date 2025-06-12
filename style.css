@@ -5,9 +5,14 @@
     --text-color:#333;
 }
 @font-face {
-    font-family: myFont;
+    font-family: myFont1;
+    src: url(./font/052.ttf);
+}
+@font-face {
+    font-family: myFont2;
     src: url(./font/Burmese\ Handwriting.ttf);
 }
+
 body{
     margin: 0;
     padding: 0;
@@ -28,7 +33,7 @@ body{
     background-color: #fefefe;
     text-align: center;
     padding-bottom: 38px;
-
+    position: relative;
 }
 .password-section{
     text-align: center;
@@ -66,6 +71,17 @@ h3{
     color: red;
     font-size: 14px;
     margin-top: 18px;
+}
+.footer{
+    background-color: var(--first-color);
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    color: #fff;
+    font-family: monospace;
+    font-size: 11px;
+    padding: 3px 0;
 }
 
 .menu-bar{
@@ -128,12 +144,32 @@ img{
 span{
     font-size: 14px;
 }
-p{
-    font-size: 14px;
-    font-weight: 900;
-    color: var(--first-color);
+.wish-contents{
+    font-size: 16px;
+    color: var(--text-color);
     text-align: justify;
     padding: 0 20px;
-    font-family: myFont;
-    line-height: 1.8rem;
+    font-family: myFont1;
+    line-height: 1.5rem;
+}
+.paraLineGap{
+    margin-bottom: 9px;
+}
+.surprise-text{
+    color: red;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 14px;
+    cursor: pointer;
+}
+i{
+    margin:  6px 5px 0 5px;
+    font-size: 19px;
+    color: var(--first-color);
+}
+.video-style{
+    margin: 22px 0 15px 0;
+}
+video{
+    max-width: 250px;
 }
