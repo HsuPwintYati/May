@@ -168,8 +168,8 @@ i{
     color: var(--first-color);
 }
 .video-style{
-    margin: 22px 0 15px 0;
+    margin: 21px 0 10px 0;
 }
 video{
-    max-width: 250px;
+    max-width: 200px;
 }
